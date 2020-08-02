@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tasks_Create">
+
+    <include layout="@layout/appbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_pg"
+        android:layout_marginRight="@dimen/margin_pg">
+
+        <EditText
+            android:id="@+id/tasktitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:hint="Task Title"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/taskdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tasktitle"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:hint="Description"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_selectMembers_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taskdesc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Please select members for the task:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/allUsers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/savetask"
+            android:layout_below="@id/tv_selectMembers_label"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/savetask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/border_button_1"
+            android:text="Save Task"
+            android:textColor="@color/text_light" />
+    </RelativeLayout>
+</RelativeLayout>

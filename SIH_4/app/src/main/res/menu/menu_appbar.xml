@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+
+    <item
+        android:id="@+id/BarGraph"
+        android:title="BarGraph" />
+
+    <item
+        android:id="@+id/LineGraph"
+        android:title="LineGraph" />
+
+
+    <item
+        android:id="@+id/GenerateData"
+        android:title="GenerateData" />
+
+
+</menu>
