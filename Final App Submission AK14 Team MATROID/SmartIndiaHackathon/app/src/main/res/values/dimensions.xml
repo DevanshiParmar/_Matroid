@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <dimen name="graph_margin1">15dp</dimen>
+    <dimen name="relative_button_graph">15dp</dimen>
+    <dimen name="graph_margin2">20dp</dimen>
+    <dimen name="graph_margin_switch">40dp</dimen>
+
+    <dimen name="margin_pg">10dp</dimen>
+    <dimen name="margin_pg_extra">30dp</dimen>
+    <dimen name="margin_pg_top">75dp</dimen>
+
+    <dimen name="within_line_spacing">15dp</dimen>
+    <dimen name="padding_">5dp</dimen>
+    <dimen name="padding_icon">8dp</dimen>
+    <dimen name="interline_spacing">15dp</dimen>
+    <dimen name="interline_spacing_large">25dp</dimen>
+
+</resources>
